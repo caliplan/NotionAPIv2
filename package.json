@@ -1,24 +1,13 @@
 {
-  "name": "notionapiv2",
-  "version": "1.0.0",
-  "description": "��#\u0000 \u0000N\u0000o\u0000t\u0000i\u0000o\u0000n\u0000A\u0000P\u0000I\u0000v\u00002\u0000\r\u0000 \u0000",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/caliplan/NotionAPIv2.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/caliplan/NotionAPIv2/issues"
-  },
-  "homepage": "https://github.com/caliplan/NotionAPIv2#readme",
-  "dependencies": {
-    "express": "^4.21.0",
-    "node-fetch": "^3.3.2"
+    "name": "my-web-app",
+    "version": "1.0.0",
+    "main": "backend/server.js",
+    "scripts": {
+      "start": "node backend/server.js",
+      "build": "echo 'No build step required'"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "node-fetch": "^2.6.1"
+    }
   }
-}
